@@ -7,10 +7,10 @@ default:
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
-      extensions:
-        Behat\MinkExtension:
-          goutte: ~
-          selenium2: ~
-          base_url: http://behat-training.local
-        Drupal\DrupalExtension:
-          blackbox: ~
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      selenium2: ~
+      base_url: http://behat-training.local
+    Drupal\DrupalExtension:
+      blackbox: ~
