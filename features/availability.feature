@@ -6,4 +6,7 @@ Feature: The site should be available.
   Scenario: A user views the homepage
     Given I am an anonymous user
     When I go to the homepage
+    Then I break
     Then I should be on the homepage
+    Then print last response
+    Then show last response
